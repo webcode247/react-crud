@@ -14,6 +14,6 @@ const UserList = ({users, deleteUser, editUser}) => {
             {allUsers}
         </>
     );
-}
+};
 
 export default UserList;

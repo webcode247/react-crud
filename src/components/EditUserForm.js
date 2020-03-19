@@ -24,7 +24,7 @@ const EditUserForm = () => {
 
     const handleUserSubmit = e => {
         e.preventDefault();
-        updateUser(formUser.id, formUser);
+        updateUser(formUser.id, formUser)
     };
     
     return (
